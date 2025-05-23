@@ -51,7 +51,12 @@ For convenience, we added the `download.py` script which downloads, crops and re
 ```
 python download.py --output_dir /path/to/output/dir --num_workers 8
 ```
+put ffmpeg.exe , ffplay.exe and ffprobe.exe in your python/scripts folder
 
+and install tqdm.exe
+```
+pip install tqdm
+```
 Note: some videos might become unavailable if the authors will remove them or make them private.
 
 ## Reference
